@@ -28,6 +28,9 @@ yarn-error.log*
 # local env files
 .env*.local
 
+# task file
+Tasks.md
+
 # vercel
 .vercel
 
@@ -36,3 +39,6 @@ yarn-error.log*
 next-env.d.ts
 
 .env
+
+# webstorm
+.idea
