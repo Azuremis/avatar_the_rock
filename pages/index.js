@@ -123,10 +123,10 @@ const Home = () => {
       <div className="container">
         <div className="header">
           <div className="header-title">
-            <h1>The Rock (aka Dwayne Johnson) Generator</h1>
+            <h1>The Rock (aka Dwayne Johnson) Avatar Generator</h1>
           </div>
           <div className="header-subtitle">
-            <h2>Make avatars of The Rock! Make sure to refer to me as "elrock" in the prompt</h2>
+            <h2>Make avatars of The Rock! Make sure to refer to him as "elrock" in the prompt</h2>
           </div>
             <div className="prompt-container">
                 <input className="prompt-box" value={input} onChange={onChange}/>
