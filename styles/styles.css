@@ -10,7 +10,8 @@ body {
     display: flex;
     place-content: center flex-start;
     align-items: center;
-    background-color: rgb(0, 0, 0);
+    background-image: url('../images/background.jpg');
+    background-size: cover;
     flex-flow: column nowrap;
     gap: 10px;
     height: 100vh;
@@ -40,7 +41,7 @@ body {
     width: 100%;
     align-items: center;
     justify-content: center;
-    color: gold;
+    color: black;
 }
 
 .header-title {
@@ -63,7 +64,7 @@ body {
     font-style: normal;
     font-weight: 400;
     line-height: 1.4em;
-    color: rgb(225, 148, 21);
+    color: black;
 }
 
 .prompt-container {
@@ -80,14 +81,14 @@ body {
 
 .prompt-box {
     border-bottom-width: 1px;
-    border-color: rgba(255, 255, 255, 0.1);
+    border-color: black;
     border-left-width: 1px;
     border-right-width: 1px;
     border-style: solid;
     border-top-width: 1px;
     place-content: flex-start;
     align-items: flex-start;
-    background-color: rgba(255, 255, 255, 0.05);
+    background-color: black;
     border-radius: 16px;
     display: flex;
     flex: 0 0 auto;
@@ -107,7 +108,7 @@ body {
     letter-spacing: 0px;
     line-height: 1.6em;
     text-align: start;
-    color: rgb(182, 142, 75);
+    color: white;
     text-decoration: none;
     text-transform: none;
 }
@@ -118,7 +119,7 @@ body {
 
 
 .prompt-box:focus {
-    border-color: rgba(255, 255, 255, 0.75)
+    border-color: white;
 }
 
 
@@ -140,7 +141,7 @@ body {
 .generate-button {
     place-content: flex-start;
     align-items: flex-start;
-    background-color: #d38c16;
+    background-color: black;
     border-radius: 100px;
     display: flex;
     flex: 0 0 auto;
@@ -169,12 +170,6 @@ body {
     color: black;
     margin: 0;
 }
-
-/*.wrapper {
-    display: flex;
-    justify-content: flex-end;
-    margin-left: auto; !* This will add a 20px gap to the left of the wrapper *!
-}*/
 
 
 .loading {
@@ -319,7 +314,7 @@ body {
     height: 18px;
     border-radius: 50%;
     display: inline-block;
-    border-top: 2px solid #FFF;
+    border-top: 2px solid black;
     border-right: 2px solid transparent;
     box-sizing: border-box;
     animation: rotation 1s linear infinite;
