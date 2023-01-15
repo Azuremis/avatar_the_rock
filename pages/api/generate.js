@@ -5,7 +5,7 @@ const generateAction = async (req, res) => {
 
     // Fetch request to Hugging Face
     const response = await fetch(
-        'https://api-inference.huggingface.co/models/Azuremis/sd-1-5-stanito',
+        'https://api-inference.huggingface.co/models/Azuremis/sd-1-5-therock',
     {
         headers: {
                 Authorization: `Bearer ${process.env.HF_AUTH_KEY}`,
