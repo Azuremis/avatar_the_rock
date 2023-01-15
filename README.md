@@ -34,13 +34,10 @@
     <img src="images/logo.png" alt="Logo" width="80" height="80">
   </a>
 
-<h3 align="center">project_title</h3>
+<h3 align="center">Avatar The Rock</h3>
 
   <p align="center">
-    project_description
-    <br />
-    <a href="https://github.com/azuremis/avatar_the_rock"><strong>Explore the docs »</strong></a>
-    <br />
+    An AI powered avatar generator for The Rock a.k.a. Dwayne Johnson
     <br />
     <a href="https://github.com/azuremis/avatar_the_rock">View Demo</a>
     ·
@@ -81,16 +78,22 @@
 
 [![Product Name Screen Shot][product-screenshot]](https://example.com)
 
-Avatar The Rock is an AI-powered avatar generator for The Rock a.k.a Dwayne Johnson. You can use it by going [here]() or clickking the view demo link above.
+Avatar The Rock is an AI-powered avatar generator for The Rock a.k.a Dwayne Johnson. It was made by fine-tuning stable
+diffusion with images of The Rock via dreambooth. You can use it by going [here]() or clicking the view demo link above.
+You can also try out the notebook used to train the model [![Open In Colab][OpenInColab-shield]][OpenInColab-url].
+
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
 
 ### Built With
-
+* [![Jupyter Notebook][JupyterNotebook-shield]][JupyterNotebook-url]
+* [![Hugging Face][HuggingFace-shield]][HuggingFace-url]
+* [![Stable Diffusion][StableDiffusion-shield]][StableDiffusion-url]
 * [![Next][Next.js]][Next-url]
 * [![React][React.js]][React-url]
+
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -148,9 +151,9 @@ Distributed under the MIT License. See `LICENSE.txt` for more information.
 <!-- CONTACT -->
 ## Contact
 
-Azuremis [@azuremis](https://twitter.com/azuremis)
-
-Project Link: [https://github.com/azuremis/avatar_the_rock](https://github.com/azuremis/avatar_the_rock)
+* Twitter [@azuremis](https://twitter.com/azuremis)
+* All My [Links](https://azuremis.bio.link/)
+* [Project Link](https://github.com/azuremis/avatar_the_rock)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -180,8 +183,20 @@ Project Link: [https://github.com/azuremis/avatar_the_rock](https://github.com/a
 [license-url]: https://github.com/azuremis/avatar_the_rock/blob/master/LICENSE.txt
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]: https://linkedin.com/in/azuremis
-[product-screenshot]: images/screenshot.png
+[product-screenshot]: images/screenshot.jpg
+[OpenInColab-shield]: https://colab.research.google.com/assets/colab-badge.svg
+[OpenInColab-url]: https://colab.research.google.com/github/azuremis/avatar_the_rock/blob/main/avatar_the_rock.ipynb
+
+[JupyterNotebook-shield]: https://img.shields.io/badge/Jupyter%20Notebook-F37626?style=for-the-badge&logo=Jupyter&logoColor=white
+[JupyterNotebook-url]: https://jupyter.org/
+[HuggingFace-shield]: https://img.shields.io/badge/Hugging%20Face-FF6F61?style=for-the-badge&logo=huggingface&logoColor=white
+[HuggingFace-url]: https://huggingface.co/
+[StableDiffusion-shield]: https://img.shields.io/badge/Stable%20Diffusion-000000?style=for-the-badge&logo=StableDiffusion&logoColor=white
+[StableDiffusion-url]: https://github.com/Stability-AI/stablediffusion
 [Next.js]: https://img.shields.io/badge/next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white
 [Next-url]: https://nextjs.org/
 [React.js]: https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB
 [React-url]: https://reactjs.org/
+
+
+
