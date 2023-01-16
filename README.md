@@ -79,7 +79,8 @@
 
 Avatar The Rock is an AI-powered avatar generator for The Rock a.k.a Dwayne Johnson. It was made by fine-tuning stable
 diffusion with images of The Rock via dreambooth. You can use it by going [here]() or clicking the view demo link above.
-You can also try out the notebook used to train the model [![Open In Colab][OpenInColab-shield]][OpenInColab-url].
+The fine-tuned model is hosted at Hugging Face and can be found [here](https://huggingface.co/Azuremis/sd-1-5-therock).
+
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -105,6 +106,15 @@ You can also try out the notebook used to train the model [![Open In Colab][Open
 <!-- USAGE EXAMPLES -->
 ## Usage
 
+<img src="images/nerd_rock_2.png" width="400px"/> <img src="images/prince_rock_2.png" width="400px"/>
+<img src="images/video_game_rock_2.png" width="400px"/> <img src="images/swole_rock_1.png" width="400px"/>
+
+To use the image generator, write a prompt in the input box. For the prompt to work, you need to refer to 
+the rock as "elrock". Some example prompts are below:
+
+- A candid profile of elrock as a handsome tech nerd wearing glasses, muscular, fantasy, intricate, elegant, highly detailed, digital painting, artstation, concept art, smooth, sharp focus, illustration, art by artgerm and greg rutkowski and alphonse mucha, trending on artstation
+- Beautiful portrait of an attractive elrock as a Prince wearing a peacock feather, dramatic lighting, intricate, wild, highly detailed, digital painting, concept art, smooth, sharp focus, illustration, exotic
+
 Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -114,10 +124,11 @@ Use this space to show useful examples of how a project can be used. Additional 
 <!-- ROADMAP -->
 ## Roadmap
 
-- [ ] Feature 1
-- [ ] Feature 2
-- [ ] Feature 3
-    - [ ] Nested Feature
+- [ ] Make the interface more intuitive
+  - [ ] Allow users to refer to The Rock by his other nicknames instead of elrock
+  - [ ] Add prepoulated prompt as an example
+  - [ ] Add a buttons to help select prompt elements
+- [ ] Link a jupyter notebook (collab) that allows users to make generations directly with the pre-tuned model
 
 See the [open issues](https://github.com/azuremis/avatar_the_rock/issues) for a full list of proposed features (and known issues).
 
