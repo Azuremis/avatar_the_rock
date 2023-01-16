@@ -31,7 +31,7 @@
 <br />
 <div align="center">
   <a href="https://github.com/azuremis/avatar_the_rock">
-    <img src="images/logo.png" alt="Logo" width="80" height="80">
+    <img src="images/avatar_logo.png" alt="Logo" width="80" height="80">
   </a>
 
 <h3 align="center">Avatar The Rock</h3>
@@ -39,7 +39,7 @@
   <p align="center">
     An AI powered avatar generator for The Rock a.k.a. Dwayne Johnson
     <br />
-    <a href="https://github.com/azuremis/avatar_the_rock">View Demo</a>
+    <a href="https://avatartherock-production.up.railway.app/">View Demo</a>
     ·
     <a href="https://github.com/azuremis/avatar_the_rock/issues">Report Bug</a>
     ·
