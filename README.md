@@ -9,7 +9,6 @@
 -->
 
 
-
 <!-- PROJECT SHIELDS -->
 <!--
 *** I'm using markdown "reference style" links for readability.
@@ -88,11 +87,14 @@ You can also try out the notebook used to train the model [![Open In Colab][Open
 
 
 ### Built With
-* [![Jupyter Notebook][JupyterNotebook-shield]][JupyterNotebook-url]
-* [![Hugging Face][HuggingFace-shield]][HuggingFace-url]
-* [![Stable Diffusion][StableDiffusion-shield]][StableDiffusion-url]
-* [![Next][Next.js]][Next-url]
-* [![React][React.js]][React-url]
+[![Jupyter Notebook][JupyterNotebook-shield]][JupyterNotebook-url]
+[![Hugging Face][HuggingFace-shield]][HuggingFace-url]
+[![Stable Diffusion][StableDiffusion-shield]][StableDiffusion-url]
+
+[![Next][Next.js]][Next-url]
+[![React][React.js]][React-url]
+[![Railway][Railway-shield]][Railway-url]
+
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -161,9 +163,8 @@ Distributed under the MIT License. See `LICENSE.txt` for more information.
 <!-- ACKNOWLEDGMENTS -->
 ## Acknowledgments
 
-* []()
-* []()
-* []()
+* [Best Readme template](https://github.com/othneildrew/Best-README-Template) by [Othneil](https://www.othneildrew.com/)
+* [Build your own avatar generator tutorial](https://buildspace.so/p/build-ai-avatars) by [Buildspace](https://twitter.com/_buildspace)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -197,6 +198,8 @@ Distributed under the MIT License. See `LICENSE.txt` for more information.
 [Next-url]: https://nextjs.org/
 [React.js]: https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB
 [React-url]: https://reactjs.org/
+[Railway-shield]: https://img.shields.io/badge/-Railway-blue?style=for-the-badge
+[Railway-url]: https://railway.app/
 
 
 
