@@ -115,8 +115,6 @@ the rock as "elrock". Some example prompts are below:
 - A candid profile of elrock as a handsome tech nerd wearing glasses, muscular, fantasy, intricate, elegant, highly detailed, digital painting, artstation, concept art, smooth, sharp focus, illustration, art by artgerm and greg rutkowski and alphonse mucha, trending on artstation
 - Beautiful portrait of an attractive elrock as a Prince wearing a peacock feather, dramatic lighting, intricate, wild, highly detailed, digital painting, concept art, smooth, sharp focus, illustration, exotic
 
-Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources.
-
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
