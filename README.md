@@ -9,7 +9,6 @@
 -->
 
 
-
 <!-- PROJECT SHIELDS -->
 <!--
 *** I'm using markdown "reference style" links for readability.
@@ -31,7 +30,7 @@
 <br />
 <div align="center">
   <a href="https://github.com/azuremis/avatar_the_rock">
-    <img src="images/logo.png" alt="Logo" width="80" height="80">
+    <img src="images/avatar_logo.png" alt="Logo" width="80" height="80">
   </a>
 
 <h3 align="center">Avatar The Rock</h3>
@@ -39,7 +38,7 @@
   <p align="center">
     An AI powered avatar generator for The Rock a.k.a. Dwayne Johnson
     <br />
-    <a href="https://github.com/azuremis/avatar_the_rock">View Demo</a>
+    <a href="https://avatartherock-production.up.railway.app/">View Demo</a>
     ·
     <a href="https://github.com/azuremis/avatar_the_rock/issues">Report Bug</a>
     ·
@@ -80,7 +79,8 @@
 
 Avatar The Rock is an AI-powered avatar generator for The Rock a.k.a Dwayne Johnson. It was made by fine-tuning stable
 diffusion with images of The Rock via dreambooth. You can use it by going [here]() or clicking the view demo link above.
-You can also try out the notebook used to train the model [![Open In Colab][OpenInColab-shield]][OpenInColab-url].
+The fine-tuned model is hosted at Hugging Face and can be found [here](https://huggingface.co/Azuremis/sd-1-5-therock).
+
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -88,11 +88,14 @@ You can also try out the notebook used to train the model [![Open In Colab][Open
 
 
 ### Built With
-* [![Jupyter Notebook][JupyterNotebook-shield]][JupyterNotebook-url]
-* [![Hugging Face][HuggingFace-shield]][HuggingFace-url]
-* [![Stable Diffusion][StableDiffusion-shield]][StableDiffusion-url]
-* [![Next][Next.js]][Next-url]
-* [![React][React.js]][React-url]
+[![Jupyter Notebook][JupyterNotebook-shield]][JupyterNotebook-url]
+[![Hugging Face][HuggingFace-shield]][HuggingFace-url]
+[![Stable Diffusion][StableDiffusion-shield]][StableDiffusion-url]
+
+[![Next][Next.js]][Next-url]
+[![React][React.js]][React-url]
+[![Railway][Railway-shield]][Railway-url]
+
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -103,7 +106,14 @@ You can also try out the notebook used to train the model [![Open In Colab][Open
 <!-- USAGE EXAMPLES -->
 ## Usage
 
-Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources.
+<img src="images/nerd_rock_2.png" width="400px"/> <img src="images/prince_rock_2.png" width="400px"/>
+<img src="images/video_game_rock_2.png" width="400px"/> <img src="images/swole_rock_1.png" width="400px"/>
+
+To use the image generator, write a prompt in the input box. For the prompt to work, you need to refer to 
+the rock as "elrock". Some example prompts are below:
+
+- A candid profile of elrock as a handsome tech nerd wearing glasses, muscular, fantasy, intricate, elegant, highly detailed, digital painting, artstation, concept art, smooth, sharp focus, illustration, art by artgerm and greg rutkowski and alphonse mucha, trending on artstation
+- Beautiful portrait of an attractive elrock as a Prince wearing a peacock feather, dramatic lighting, intricate, wild, highly detailed, digital painting, concept art, smooth, sharp focus, illustration, exotic
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -112,10 +122,11 @@ Use this space to show useful examples of how a project can be used. Additional 
 <!-- ROADMAP -->
 ## Roadmap
 
-- [ ] Feature 1
-- [ ] Feature 2
-- [ ] Feature 3
-    - [ ] Nested Feature
+- [ ] Make the interface more intuitive
+  - [ ] Allow users to refer to The Rock by his other nicknames instead of elrock
+  - [ ] Add prepoulated prompt as an example
+  - [ ] Add a buttons to help select prompt elements
+- [ ] Link a jupyter notebook (collab) that allows users to make generations directly with the pre-tuned model
 
 See the [open issues](https://github.com/azuremis/avatar_the_rock/issues) for a full list of proposed features (and known issues).
 
@@ -161,9 +172,8 @@ Distributed under the MIT License. See `LICENSE.txt` for more information.
 <!-- ACKNOWLEDGMENTS -->
 ## Acknowledgments
 
-* []()
-* []()
-* []()
+* [Best Readme template](https://github.com/othneildrew/Best-README-Template) by [Othneil](https://www.othneildrew.com/)
+* [Build your own avatar generator tutorial](https://buildspace.so/p/build-ai-avatars) by [Buildspace](https://twitter.com/_buildspace)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -197,6 +207,8 @@ Distributed under the MIT License. See `LICENSE.txt` for more information.
 [Next-url]: https://nextjs.org/
 [React.js]: https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB
 [React-url]: https://reactjs.org/
+[Railway-shield]: https://img.shields.io/badge/-Railway-blue?style=for-the-badge
+[Railway-url]: https://railway.app/
 
 
 
