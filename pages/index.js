@@ -1,7 +1,7 @@
 import { useState, useEffect } from 'react';
 import Head from 'next/head';
 import Image from 'next/image';
-import azuremisLogo from '../assets/azuremisi-logo.png';
+import azuremisLogo from '../assets/azuremisi-logo.jpeg';
 
 const Home = () => {
     // Max tries is 20 times
